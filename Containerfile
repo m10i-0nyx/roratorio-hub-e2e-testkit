@@ -11,7 +11,7 @@ RUN set -x \
     && npm install -D @playwright/test \
     && playwright install chromium firefox --only-shell --with-deps
 
-ENV BASE_URL="http://localhost/roratorio-hub/ro4/m/calcx.html"
+ENV BASE_URL="https://roratorio-hub.github.io/staging/ro4/m/calcx.html"
 COPY playwright.config.ts .
 COPY tests/ tests/
 
