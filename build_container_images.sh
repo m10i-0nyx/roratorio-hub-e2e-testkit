@@ -24,12 +24,12 @@ podman push \
   ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/roratorio-hub/e2e-testkit:latest-x64
 
 # Build arm64 container image and push to ECR
-podman build --tag roratorio-hub/e2e-testkit:latest-arm64 \
-  --platform=linux/arm64 \
-  --force-rm \
-  -f Containerfile .
-
-podman tag roratorio-hub/e2e-testkit:latest-arm64 \
-  ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/roratorio-hub/e2e-testkit:latest-arm64
-podman push \
-  ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/roratorio-hub/e2e-testkit:latest-arm64
+#podman build --tag roratorio-hub/e2e-testkit:latest-arm64 \
+#  --platform=linux/arm64 \
+#  --force-rm \
+#  -f Containerfile .
+#
+#podman tag roratorio-hub/e2e-testkit:latest-arm64 \
+#  ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/roratorio-hub/e2e-testkit:latest-arm64
+#podman push \
+#  ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/roratorio-hub/e2e-testkit:latest-arm64
