@@ -1,5 +1,5 @@
-# roratorio-hub-testkit
-ROラトリオHubのためのテストキット
+# roratorio-hub-e2e-testkit
+ROラトリオHubのためのE2Eテストキット
 
 # インストール
 コンテナを使用してテストを実行します。以下の手順でセットアップしてください。
@@ -7,8 +7,8 @@ ROラトリオHubのためのテストキット
 - Podman (またはDocker)
 
 ```bash
-git clone https://github.com/m10i-0nyx/roratorio-hub-testkit
-cd roratorio-hub-testkit
+git clone https://github.com/m10i-0nyx/roratorio-hub-e2e-testkit
+cd roratorio-hub-e2e-testkit
 npm install
 ```
 
