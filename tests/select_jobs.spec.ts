@@ -35,7 +35,7 @@ test.describe('Job Tests', () => {
         { name: 'ジプシー', baseLevel: '99', jobLevel: '70', statusPointMax: '99', expectedText: '-2443' },
         { name: 'プロフェッサー', baseLevel: '99', jobLevel: '70', statusPointMax: '99', expectedText: '-2443' },
         { name: 'クリエイター', baseLevel: '99', jobLevel: '70', statusPointMax: '99', expectedText: '-2443' },
-        //{ name: 'ハイ ノービス', baseLevel: '99', jobLevel: '10', statusPointMax: '99', expectedText: '-2443' },
+        { name: 'ハイ ノービス', baseLevel: '99', jobLevel: '99', statusPointMax: '99', expectedText: '-2443' },
         { name: 'ハイ ソードマン', baseLevel: '99', jobLevel: '50', statusPointMax: '99', expectedText: '-2443' },
         { name: 'ハイ シーフ', baseLevel: '99', jobLevel: '50', statusPointMax: '99', expectedText: '-2443' },
         { name: 'ハイ アコライト', baseLevel: '99', jobLevel: '50', statusPointMax: '99', expectedText: '-2443' },
