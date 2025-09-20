@@ -9,9 +9,11 @@ RUN set -x \
     && npm install -g npm \
     && npm install -g -D playwright@latest \
     && npm install -D @playwright/test \
-    && playwright install chromium firefox --only-shell --with-deps
+    && playwright install chromium firefox --only-shell --with-deps \
+    && apt-get clean \
+    && npm cache clean --force && rm -rf ~/.npm
 
-ENV BASE_URL="https://roratorio-hub.github.io/staging/ro4/m/calcx.html"
+ENV BASE_URL="http://localhost/roratorio/ro4/m/calcx.html"
 COPY playwright.config.ts .
 COPY tests/ tests/
 
