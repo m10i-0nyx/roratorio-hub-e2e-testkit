@@ -1,0 +1,29 @@
+{
+    "name": "roratorio-hub-e2e-testkit",
+    "version": "1.0.0",
+    "description": "ROラトリオHubのためのPlaywright E2Eテストキット",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/m10i-0nyx/roratorio-hub-e2e-testkit.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/m10i-0nyx/roratorio-hub-e2e-testkit/issues"
+    },
+    "homepage": "https://github.com/m10i-0nyx/roratorio-hub-e2e-testkit#readme",
+    "dependencies": {
+        "@types/node": "^24.3.0"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.56.0"
+    }
+}
